@@ -146,6 +146,8 @@ section {
 .delivery p {
   margin-block-start: 0;
   margin-block-end: 0;
+  max-width: 90%;
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 900;
@@ -178,7 +180,7 @@ section {
   text-transform: uppercase;
 }
 
-.contact-through-whatsapp {
+.floating-button-contact-through-whatsapp {
   position: fixed;
   z-index: 1;
   bottom: 15px;
@@ -188,7 +190,8 @@ section {
 .info-whatsapp {
   background-color: #fae91e;
   color: #3a4553 !important;
-  width: auto;
+  width: 100%;
+  max-width: 385px;
   padding: 0 16px;
   height: 52px;
   border-radius: 25px;
@@ -221,6 +224,13 @@ section {
   transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+
+@media screen and (max-width: 339px) {
+  .cables {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header-container .logo {
     max-width: 300px;
@@ -235,8 +245,14 @@ section {
     height: 120px;
   }
 
-  .contact-through-whatsapp {
+  .floating-button-contact-through-whatsapp {
     display: none;
+  }
+
+  .info-whatsapp {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
 
   .send {
@@ -244,7 +260,7 @@ section {
   }
 
   .info-whatsapp svg {
-    width: 25px;
+    display: none;
   }
 }
 
