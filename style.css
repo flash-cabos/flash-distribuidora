@@ -226,7 +226,8 @@ section {
 
 
 @media screen and (max-width: 339px) {
-  .cables {
+  .cables,
+  .description {
     width: 80%;
   }
 }
