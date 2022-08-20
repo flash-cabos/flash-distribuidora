@@ -129,7 +129,7 @@ section {
   text-align: center;
   color: #fff;
   border-radius: 15px;
-  width: 150px;
+  width: 165px;
   height: 60px;
   cursor: context-menu;
   background-color: #036bb9;
@@ -258,6 +258,7 @@ section {
 
   .send {
     font-size: 14px;
+    text-align: center;
   }
 
   .info-whatsapp svg {
