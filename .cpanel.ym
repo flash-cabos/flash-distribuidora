@@ -1,0 +1,4 @@
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home1/flashf49/repositories/flash-distribuidora 
+        - /bin cp * $DEPLOYPATH
